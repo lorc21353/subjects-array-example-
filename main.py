@@ -1,5 +1,6 @@
 subjects = ["comp sci", "engineering", "chemistry", "DCG", "english", "maths"]
 #print(type(subjects)) # dont print stuff the end user does not need to know as it may confuse and frustrate them 
+# type 0 is for adding, type 1 is for removing. str is the question you want to ask the user 
 def userselect(str, type):
   global userSelect
   while True:
